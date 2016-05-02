@@ -1,0 +1,106 @@
+[Wed Apr 13 15:13:58 2016] [info] [client 86.180.174.133] (32)Broken pipe: core_output_filter: writing data to the network
+[Wed Apr 13 17:11:01 2016] [info] [client 86.180.174.133] (32)Broken pipe: core_output_filter: writing data to the network
+[Thu Apr 14 14:31:13 2016] [info] [client 86.180.174.133] (32)Broken pipe: core_output_filter: writing data to the network
+[Thu Apr 14 14:46:08 2016] [info] [client 86.180.174.133] (32)Broken pipe: core_output_filter: writing data to the network
+[Sat Apr 16 11:05:22 2016] [error] [client 176.62.67.119] Invalid URI in request GET /_mem_bin/../../../../winnt/system32/cmd.exe?/c+dir HTTP/1.0
+[Sat Apr 16 11:05:25 2016] [info] [client 176.62.67.119] found %2f (encoded '/') in URI (decoded='/bin/scripts/..\xc0/../winnt/system32/cmd.exe'), returning 404
+[Sat Apr 16 11:05:29 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/allmanage.pl
+[Sat Apr 16 11:05:30 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/bnbform.cgi
+[Sat Apr 16 11:05:30 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/classifieds
+[Sat Apr 16 11:05:31 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/classifieds.cgi
+[Sat Apr 16 11:05:31 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/day5datanotifier.cgi
+[Sat Apr 16 11:05:32 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/fpcount.exe
+[Sat Apr 16 11:05:32 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/fpexplorer.exe
+[Sat Apr 16 11:05:32 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/ftp
+[Sat Apr 16 11:05:32 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/iisadmpwd
+[Sat Apr 16 11:05:32 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/iisadmpwd
+[Sat Apr 16 11:05:33 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/maillist.pl
+[Sat Apr 16 11:05:33 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/mlog.phtml
+[Sat Apr 16 11:05:34 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/nph-test-cgi
+[Sat Apr 16 11:05:34 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/bnbform
+[Sat Apr 16 11:05:34 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/password.txt
+[Sat Apr 16 11:05:35 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/cart.pl
+[Sat Apr 16 11:05:35 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/responder
+[Sat Apr 16 11:05:35 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/sawmill5
+[Sat Apr 16 11:05:35 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/scripts
+[Sat Apr 16 11:05:36 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/ceilidh.exe
+[Sat Apr 16 11:05:36 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/sh
+[Sat Apr 16 11:05:36 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/status.cgi
+[Sat Apr 16 11:05:37 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/maillist.pl
+[Sat Apr 16 11:05:37 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/textcounter.pl
+[Sat Apr 16 11:05:37 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/wwwboard.pl
+[Sat Apr 16 11:05:38 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/www-sql
+[Sat Apr 16 11:05:38 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/phf.cgi
+[Sat Apr 16 11:05:41 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/zsh
+[Sat Apr 16 11:05:42 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/wguest.exe
+[Sat Apr 16 11:05:42 2016] [info] [client 176.62.67.119] found %2f (encoded '/') in URI (decoded='/msadc/..\xc0/../..\xc0/../..\xc0/../winnt/system32/cmd.exe'), returning 404
+[Sat Apr 16 11:05:42 2016] [info] [client 176.62.67.119] found %2f (encoded '/') in URI (decoded='/msadc/..\xc0/../..\xc0/../..\xc0/../winnt/system32/cmd.exe'), returning 404
+[Sat Apr 16 11:05:43 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/passwd
+[Sat Apr 16 11:05:43 2016] [info] [client 176.62.67.119] found %2f (encoded '/') in URI (decoded='/msadc/..\xc0/../..\xc0/../..\xc0/../winnt/system32/cmd.exe'), returning 404
+[Sat Apr 16 11:05:45 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/perl
+[Sat Apr 16 11:05:47 2016] [info] [client 176.62.67.119] found %2f (encoded '/') in URI (decoded='/scripts/..\xc0/..\xc0/..\xc0/..\xc0/../winnt/system32/cmd.exe'), returning 404
+[Sat Apr 16 11:05:48 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/passwd.txt
+[Sat Apr 16 11:05:49 2016] [error] [client 176.62.67.119] Invalid URI in request GET /scripts/../../../../../winnt/system32/cmd.exe?/c+dir%20c:\\ HTTP/1.0
+[Sat Apr 16 11:05:50 2016] [info] [client 176.62.67.119] found %2f (encoded '/') in URI (decoded='/msadc/..\xc0/../winnt/system32/cmd.exe'), returning 404
+[Sat Apr 16 11:05:51 2016] [info] [client 176.62.67.119] found %2f (encoded '/') in URI (decoded='/script/..\xc0/../..\xc0/../..\xc0/../winnt/system32/cmd.exe'), returning 404
+[Sat Apr 16 11:05:55 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/survey
+[Sat Apr 16 11:05:57 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/cachemgr.cgi
+[Sat Apr 16 11:06:00 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/mylog.phtml
+[Sat Apr 16 11:06:03 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/ads.setup
+[Sat Apr 16 11:06:12 2016] [error] [client 176.62.67.119] script not found or unable to stat: /var/www/cgi-bin/password
+[Sun Apr 17 17:09:54 2016] [error] [client 141.212.122.81] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /x
+[Mon Apr 18 20:35:51 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:35:51 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:36:43 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:36:45 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:37:38 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:40:57 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:41:44 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:42:38 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:53:38 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:53:39 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:55:53 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:56:44 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:56:46 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:56:46 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 20:57:37 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:00:54 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:00:57 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:01:43 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:01:45 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:01:46 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:03:41 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:07:39 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:08:43 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:09:39 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:10:48 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:10:52 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:16:54 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:17:45 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:19:37 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:21:00 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 21:21:03 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 22:01:00 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon Apr 18 22:14:40 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Tue Apr 19 16:11:00 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Tue Apr 19 16:11:04 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Tue Apr 19 17:50:56 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Tue Apr 19 17:50:57 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Tue Apr 19 17:51:00 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Tue Apr 19 18:37:35 2016] [info] [client 52.31.92.169] (32)Broken pipe: core_output_filter: writing data to the network
+[Wed Apr 20 11:42:52 2016] [error] [client 201.173.48.38] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Wed Apr 20 11:42:55 2016] [error] [client 201.173.48.38] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Wed Apr 20 13:56:54 2016] [info] [client 86.176.70.117] (32)Broken pipe: core_output_filter: writing data to the network
+[Thu Apr 21 13:37:45 2016] [info] [client 5.81.240.194] (32)Broken pipe: core_output_filter: writing data to the network
+[Sun Apr 24 20:12:22 2016] [error] [client 176.31.234.65] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Mon Apr 25 03:30:21 2016] [error] [client 141.212.122.129] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /x
+[Mon Apr 25 21:01:44 2016] [info] [client 86.191.130.122] (32)Broken pipe: core_output_filter: writing data to the network
+[Thu Apr 28 17:10:09 2016] [error] [client 177.238.149.183] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Apr 28 17:10:12 2016] [error] [client 177.238.149.183] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Thu Apr 28 19:49:34 2016] [info] [client 86.139.74.244] (32)Broken pipe: core_output_filter: writing data to the network
+[Fri Apr 29 07:30:56 2016] [error] [client 31.184.195.114] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Apr 29 08:54:54 2016] [error] [client 185.130.5.174] (104)Connection reset by peer: ap_content_length_filter: apr_bucket_read() failed
+[Sun May 01 10:00:43 2016] [error] [client 141.212.122.113] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /x
+[Sun May 01 12:48:37 2016] [error] [client 221.195.1.140] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Mon May 02 12:50:34 2016] [info] [client 109.152.83.93] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 02 14:35:26 2016] [error] [client 169.229.3.91] (104)Connection reset by peer: ap_content_length_filter: apr_bucket_read() failed

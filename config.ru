@@ -15,4 +15,6 @@ map Sinatra::Application.assets_prefix do
   run Sinatra::Application.sprockets
 end
 
+#Sinatra::Application.settings.history.clear()
+
 run Sinatra::Application

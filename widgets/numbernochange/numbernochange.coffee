@@ -22,3 +22,7 @@ class Dashing.Numbernochange extends Dashing.Widget
         c.replace /\bstatus-\S+/g, ''
       # add new class
       $(@get('node')).addClass "status-#{data.status}"
+    if data.colour
+      colour = data.colour
+      $(@node).addClass "#{colour}"
+  
