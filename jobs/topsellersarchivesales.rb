@@ -1,4 +1,4 @@
-SCHEDULER.every '10m' do
+SCHEDULER.every '11m' do
 
   uri = URI('http://hvsapp.jonpetersen.co.uk/topsellersarchivesales')
   topsellers = Net::HTTP.get(uri)  

@@ -104,3 +104,10 @@
 [Sun May 01 12:48:37 2016] [error] [client 221.195.1.140] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
 [Mon May 02 12:50:34 2016] [info] [client 109.152.83.93] (32)Broken pipe: core_output_filter: writing data to the network
 [Mon May 02 14:35:26 2016] [error] [client 169.229.3.91] (104)Connection reset by peer: ap_content_length_filter: apr_bucket_read() failed
+[Thu May 05 23:36:40 2016] [error] [client 5.196.125.98] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Fri May 06 15:38:42 2016] [info] [client 86.139.73.219] (32)Broken pipe: core_output_filter: writing data to the network
+[Fri May 06 15:38:48 2016] [info] [client 86.139.73.219] (32)Broken pipe: core_output_filter: writing data to the network
+[Fri May 06 20:55:58 2016] [info] [client 86.139.73.219] (32)Broken pipe: core_output_filter: writing data to the network
+[Sun May 08 08:36:37 2016] [debug] protocol.c(711): [client 169.229.3.91] (70014)End of file found: Failed to read request header line <\xf6\xba\x84\xe8K\x87`\x8d\xb4R
+[Sun May 08 08:36:37 2016] [error] [client 169.229.3.91] request failed: error reading the headers
+[Mon May 09 05:19:31 2016] [error] [client 141.212.122.81] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /x
