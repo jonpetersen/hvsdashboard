@@ -111,3 +111,5 @@
 [Sun May 08 08:36:37 2016] [debug] protocol.c(711): [client 169.229.3.91] (70014)End of file found: Failed to read request header line <\xf6\xba\x84\xe8K\x87`\x8d\xb4R
 [Sun May 08 08:36:37 2016] [error] [client 169.229.3.91] request failed: error reading the headers
 [Mon May 09 05:19:31 2016] [error] [client 141.212.122.81] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /x
+[Wed May 11 19:46:32 2016] [debug] protocol.c(802): [client 137.226.113.4] Request header field is missing ':' separator: ^M
+[Wed May 11 19:46:32 2016] [error] [client 137.226.113.4] request failed: error reading the headers

@@ -25,6 +25,11 @@ def climacon_class(weather_code)
     'cloud sun'
   when "Mostly Cloudy" 
     'cloud sun'
+  when "Light Rain" 
+    'drizzle'
+  when "Haze" 
+    'haze'
+  
   end
 end   
 #  when 0 
