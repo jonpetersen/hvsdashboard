@@ -25,7 +25,7 @@ SCHEDULER.every '20s' do
 
   send_event('salesvalue', { current: current_salesvalue.to_i})
   send_event('lastsaletime', { current: current_saleslasttime})
-  send_event('lastsaleoperator', { text: current_saleslastoperator})
+  send_event('lastsaleoperator', { text: current_saleslastoperator + " - " + current_saleslasttime})
   send_event('transactionsrecent', { current: current_transactionsrecent, colour: current_transactionscolour})
   send_event('vattodaypercent', { current: current_vattodaypercent})
 end

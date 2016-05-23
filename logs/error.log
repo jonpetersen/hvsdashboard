@@ -113,3 +113,22 @@
 [Mon May 09 05:19:31 2016] [error] [client 141.212.122.81] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /x
 [Wed May 11 19:46:32 2016] [debug] protocol.c(802): [client 137.226.113.4] Request header field is missing ':' separator: ^M
 [Wed May 11 19:46:32 2016] [error] [client 137.226.113.4] request failed: error reading the headers
+[Sat May 14 13:32:48 2016] [info] [client 86.139.74.59] (32)Broken pipe: core_output_filter: writing data to the network
+[Sat May 14 13:35:40 2016] [info] [client 86.139.74.59] (32)Broken pipe: core_output_filter: writing data to the network
+[Sat May 14 15:39:30 2016] [info] [client 86.139.74.59] (32)Broken pipe: core_output_filter: writing data to the network
+[Sun May 15 18:52:52 2016] [error] [client 141.212.122.113] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /x
+[Sun May 15 20:05:27 2016] [error] [client 5.196.125.96] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Mon May 16 09:41:27 2016] [debug] protocol.c(711): [client 118.193.27.2] (104)Connection reset by peer: Failed to read request header line (null)
+[Mon May 16 09:41:27 2016] [error] [client 118.193.27.2] request failed: error reading the headers
+[Mon May 16 09:41:27 2016] [info] [client 118.193.27.2] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 16 10:25:31 2016] [info] [client 86.169.39.178] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 16 13:18:57 2016] [info] [client 86.169.39.178] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 16 14:39:28 2016] [info] [client 86.169.39.178] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 16 15:32:40 2016] [info] [client 86.169.39.178] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 16 16:25:23 2016] [info] [client 31.48.76.25] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 16 16:25:28 2016] [info] [client 31.48.76.25] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 16 16:25:29 2016] [info] [client 31.48.76.25] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 16 16:25:41 2016] [info] [client 31.48.76.25] (32)Broken pipe: core_output_filter: writing data to the network
+[Tue May 17 22:17:22 2016] [info] [client 86.169.39.26] (32)Broken pipe: core_output_filter: writing data to the network
+[Tue May 17 22:17:27 2016] [info] [client 86.169.39.26] (32)Broken pipe: core_output_filter: writing data to the network
+[Mon May 23 08:40:27 2016] [info] [client 81.151.32.115] (32)Broken pipe: core_output_filter: writing data to the network
