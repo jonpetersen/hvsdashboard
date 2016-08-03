@@ -4,7 +4,8 @@ current_saleslasttime = ""
 
 SCHEDULER.every '10s' do
   last_salesvalue = YAML::load_file('tmp/todays_sales.yml')
-  last_salesvalue = 0 if Time.now.hour == 6
+  last_salesvalue = -1 if Time.now.hour == 6
+  
   current_salesvalue = Net::HTTP.get(URI('http://hvsapp.jonpetersen.co.uk/salestoday'))
   uri = URI('http://hvsapp.jonpetersen.co.uk/salelasttime')
   current_saleslast = (Net::HTTP.get(uri))
