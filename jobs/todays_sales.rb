@@ -24,6 +24,8 @@ SCHEDULER.every '10s' do
 
   if current_salesvalue.to_i > last_salesvalue
     File.open('tmp/todays_sales.yml', 'w') {|f| f.write current_salesvalue.to_i.to_yaml } #Store
+  elsif Time.now.hour > 23
+    File.open('tmp/todays_sales.yml', 'w') {|f| f.write 0.to_yaml }
   else
     current_salesvalue = last_salesvalue
   end
