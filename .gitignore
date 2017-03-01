@@ -1,2 +1,4 @@
 *DS_STORE
 history.yml
+logs/access.log
+logs/error.log
