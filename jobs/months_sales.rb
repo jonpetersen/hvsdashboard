@@ -1,4 +1,4 @@
-SCHEDULER.every '5m' do
+SCHEDULER.every '2m' do
 
   uri = URI('http://hvsapp.jonpetersen.co.uk/salesthismonth')
   current_salesthismonth = Net::HTTP.get(uri)    
@@ -13,5 +13,6 @@ SCHEDULER.every '5m' do
 
   send_event('salesthismonth', { current: current_salesthismonth.to_i})
   send_event('salesthismonthavg', { current: current_salesthismonthavg.to_i})
-  send_event('salesthismonthforecast', { current: current_salesthismonthforecast})  
+  send_event('salesthismonthforecast', { current: current_salesthismonthforecast})
+  send_event('salesthisyearforecast', { current: 325000})  
 end
