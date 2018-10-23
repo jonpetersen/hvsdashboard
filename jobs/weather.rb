@@ -2,7 +2,8 @@ require 'uri'
 
 SCHEDULER.every '10m' do
 
-  uri = URI('http://api.wunderground.com/api/ef5428a7deb2ce62/conditions/q/pws:IHAMBLED3.json')
+  #uri = URI('http://api.wunderground.com/api/ef5428a7deb2ce62/conditions/q/pws:IHAMBLED3.json')
+  uri = URI('http://api.wunderground.com/api/ef5428a7deb2ce62/conditions/q/pws:ISURREYM2.json')
   current_weather_data = JSON.parse(Net::HTTP.get(uri))
   current_temp = current_weather_data["current_observation"]["temp_c"]
   current_weather = current_weather_data["current_observation"]["weather"]
