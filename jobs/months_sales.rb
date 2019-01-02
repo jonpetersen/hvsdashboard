@@ -9,10 +9,12 @@ SCHEDULER.every '2m' do
   
   days_left = days_left + 1 if Time.now.hour < 17
   
+  days_left = days_left - 2 if Time.now.month == 12
+  
   current_salesthismonthforecast = current_salesthismonth.to_f + (days_left * current_salesthismonthavg.to_f)
 
   send_event('salesthismonth', { current: current_salesthismonth.to_i})
   send_event('salesthismonthavg', { current: current_salesthismonthavg.to_i})
   send_event('salesthismonthforecast', { current: (current_salesthismonthforecast.to_f * 0.93).to_i})
-  send_event('salesthisyearforecast', { current: 313000})  
+  send_event('salesthisyearforecast', { current: 321000})  
 end
