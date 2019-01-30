@@ -1,8 +1,8 @@
 SCHEDULER.every '2m' do
 
-  uri = URI('http://hvsapp.jonpetersen.co.uk/salesthismonth')
+  uri = URI('https://hvsapp.jonpetersen.co.uk/salesthismonth')
   current_salesthismonth = Net::HTTP.get(uri)    
-  uri = URI('http://hvsapp.jonpetersen.co.uk/salesthismonthavg')
+  uri = URI('https://hvsapp.jonpetersen.co.uk/salesthismonthavg')
   current_salesthismonthavg = Net::HTTP.get(uri) 
   
   days_left = Date.new(Time.now.year, Time.now.month, -1).day - Date.today.day
