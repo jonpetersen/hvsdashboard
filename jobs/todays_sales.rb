@@ -6,9 +6,9 @@ SCHEDULER.every '10s' do
   last_salesvalue = YAML::load_file('tmp/todays_sales.yml')
   last_salesvalue = -1 if Time.now.hour == 6 || Time.now.hour == 7
   
-  current_salesvalue = Net::HTTP.get(URI('https://hvsapp.jonpetersen.co.uk/salestoday'))
-  current_saleslast = Net::HTTP.get(URI('https://hvsapp.jonpetersen.co.uk/salelasttime'))
-  current_vattodaypercent = Net::HTTP.get(URI('https://hvsapp.jonpetersen.co.uk/vattoday'))
+  current_salesvalue = Net::HTTP.get(URI('http://hvsapp.jonpetersen.co.uk/salestoday'))
+  current_saleslast = Net::HTTP.get(URI('http://hvsapp.jonpetersen.co.uk/salelasttime'))
+  current_vattodaypercent = Net::HTTP.get(URI('http://hvsapp.jonpetersen.co.uk/vattoday'))
   if current_saleslast == "EOD"
 	current_saleslasttime = "EOD"
     lastsaleoperator = "The Shop has closed"
@@ -18,7 +18,7 @@ SCHEDULER.every '10s' do
     lastsaleoperator = current_saleslastoperator + " - " + current_saleslasttime
   end
     
-  current_transactionsrecent = Net::HTTP.get(URI('https://hvsapp.jonpetersen.co.uk/transactionsrecent'))
+  current_transactionsrecent = Net::HTTP.get(URI('http://hvsapp.jonpetersen.co.uk/transactionsrecent'))
   current_transactionscolour = "green"
   current_transactionscolour = "red" if current_transactionsrecent.to_i > 5 
 

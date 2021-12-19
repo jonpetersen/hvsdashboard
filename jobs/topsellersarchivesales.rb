@@ -1,6 +1,6 @@
-SCHEDULER.every '11m' do
+SCHEDULER.every '1d' do
 
-  uri = URI('https://hvsapp.jonpetersen.co.uk/topsellersarchivesales')
+  uri = URI('http://hvsapp.jonpetersen.co.uk/topsellersarchivesales')
   topsellers = Net::HTTP.get(uri)  
   send_event('items3', JSON.parse(topsellers))
 end
